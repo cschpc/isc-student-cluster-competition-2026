@@ -1,21 +1,21 @@
-# ISC Student cluster competition 2025
+# ISC Student cluster competition 2026
 
-Training materials and other relevant documents for the University of Helsinki team applying to the Student cluster competition at ISC High performance 2026.
+Training materials and other relevant documents for the University of Helsinki and Aalto University teams applying to the Student cluster competition at ISC High performance 2026.
 
 ## Training schedule
 
 
-|Date|Topic|
-|---|---|
-|Before the training|CSC Computing environment chapters 1-3|
-|Week 4|Parallel computing concepts + compiling + machine hall visit|
-|Week 5 (28.1.)|Aalto winter kickstart|
-|Week 6|OpenFOAM|
-|Week 8|DFTB+|
-|Week 9|ASCOT5|
-|Week 10|HemeLB|
-|Week 12|AI Task + general strategy|
-|23.3. - 8.5.|Virtual competition|
+|Date|Topic|Link to content|
+|---|---|---|
+|Before the training|CSC Computing environment chapters 1-3|[Link](https://e-learn.csc.fi/enrol/index.php?id=76)|
+|19.1.|Parallel computing concepts + compiling + machine hall visit|[Link](Training/01-supercomputing-intro)|
+|Week 5 (28.1.)|Aalto winter kickstart||
+|Week 6|OpenFOAM||
+|Week 8|DFTB+||
+|Week 9|ASCOT5||
+|Week 10|HemeLB||
+|Week 12|AI Task + general strategy||
+|23.3. - 8.5.|Virtual competition||
 
 ## Official ISC Student cluster competition links
 
