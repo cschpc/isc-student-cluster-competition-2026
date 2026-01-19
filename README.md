@@ -10,7 +10,7 @@ Training materials and other relevant documents for the University of Helsinki a
 |Before the training|CSC Computing environment chapters 1-3|[Link](https://e-learn.csc.fi/enrol/index.php?id=76)|
 |19.1.|Parallel computing concepts + compiling + machine hall visit|[Link](Training/01-supercomputing-intro)|
 |Week 5 (28.1.)|Aalto winter kickstart||
-|Week 6|OpenFOAM||
+|Week 6|OpenFOAM and GPU programming||
 |Week 8|DFTB+||
 |Week 9|ASCOT5||
 |Week 10|HemeLB||
@@ -21,6 +21,7 @@ Training materials and other relevant documents for the University of Helsinki a
 
 - [ISC High performance conference site](https://isc-hpc.com/)
 - [Student cluster competition, official site](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/)
+- [Competition tasks and materials](https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/3177283633/ISC25+SCC+-+Virtual+Part)
 
 ## Miscellaneous documentation
 

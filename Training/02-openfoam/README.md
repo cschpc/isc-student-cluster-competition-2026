@@ -1,7 +1,7 @@
 # SCC Training 02 - OpenFOAM
 
-Date 
-At CSC
+Date  
+At CSC - Keilaniemi
 - Arrival instructions: https://csc.fi/en/about-us/contact-information/#espoo-directions-and-accessibility
 
 Slides: https://kannu.csc.fi/s/zbgGj6kHqi5ySjb?dir=/02-OpenFOAM
@@ -10,10 +10,11 @@ Slides: https://kannu.csc.fi/s/zbgGj6kHqi5ySjb?dir=/02-OpenFOAM
 
 |Time|Topic|
 |---|---|
-|13:00|About OpenFOAM|
-|13:30|Compiling OpenFOAM on Mahti|
+|13:15|About GPUs and GPU programming|
+|13:40|Build tools (Make and CMake)|
+|14:00|About OpenFOAM|
 |14:30|Coffee break|
-|14:45|Running applications with OpenFOAM|
+|14:45|Compiling and running OpenFOAM|
 |17:00|End of training|
 
 ## Hands-on exercises
