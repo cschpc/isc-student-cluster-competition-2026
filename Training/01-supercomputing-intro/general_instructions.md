@@ -17,7 +17,7 @@ cd $USER
 Clone this repository:
 
 ```
-git clone git@github.com:cschpc/isc-student-cluster-competition-2026.git
+git clone https://github.com/cschpc/isc-student-cluster-competition-2026.git
 ```
 
 Information about CSC supercomputer environments:
