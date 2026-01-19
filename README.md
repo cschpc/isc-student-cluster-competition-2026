@@ -9,7 +9,7 @@ Training materials and other relevant documents for the University of Helsinki a
 |---|---|---|
 |Before the training|CSC Computing environment chapters 1-3|[Link](https://e-learn.csc.fi/enrol/index.php?id=76)|
 |19.1.|Parallel computing concepts + compiling + machine hall visit|[Link](Training/01-supercomputing-intro)|
-|Week 5 (28.1.)|Aalto winter kickstart||
+|Week 5 (28.1. 11:50-15:00)|Aalto winter kickstart|[Link](https://scicomp.aalto.fi/training/scip/winter-kickstart-2026/)|
 |Week 6|OpenFOAM and GPU programming||
 |Week 8|DFTB+||
 |Week 9|ASCOT5||
