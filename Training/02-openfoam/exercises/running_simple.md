@@ -16,7 +16,7 @@ source /projappl/project_2016753/share/OpenFOAM-v2506/etc/bashrc
 cp -r /projappl/project_2016753/share/OpenFOAM-v2506/tutorials/incompressible/icoFoam/cavity /scratch/project_2016753/group_xyz
 ```
 
-Go to the tutorial folder at `tutorials/incompressible/icoFoam/cavity/cavity`.
+Go to the tutorial folder at `cavity/cavity`.
 
 **Note!** At any point, if you need a clean slate, use the `Allclean` executable in the case directory.
 
@@ -53,7 +53,7 @@ If all looks good, you can continue into running your simulation. You can leave 
 
 ## Running the simulation
 
-Go back to your local terminal session, and make sure that you're in the tutorial folder (`/scratch/project_2016753/<your-working-folder>/tutorials/incompressible/icoFoam/cavity/cavity`).
+Go back to your local terminal session, and make sure that you're in the tutorial folder (`/scratch/project_2016753/<your-working-folder>/cavity/cavity`).
 
 Program runtime parameters are defined the file under `system/controlDict`.
 We can leave the parameters as their default values for this test case.
