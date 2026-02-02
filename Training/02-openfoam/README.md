@@ -10,11 +10,10 @@ Slides: https://kannu.csc.fi/s/zbgGj6kHqi5ySjb?dir=/02-OpenFOAM
 
 |Time|Topic|
 |---|---|
-|13:15|Build tools (Make and CMake)|
-|13:30|About OpenFOAM|
-|14:00|Building OpenFOAM|
+|13:15|OpenFOAM background|
+|13:45|Hands-on with OpenFOAM|
 |14:30|Coffee break|
-|14:45|Running OpenFOAM|
+|14:45|Hands-on continued|
 |15:30|Thread and process affinity|
 
 ## Hands-on exercises
@@ -32,5 +31,5 @@ Work through the following exercises:
 
 ## Homework
 
-- Make sure that your groups installation of OpenFOAM finished
-- 146
+- Install OpenFOAM on Mahti between your team
+- Fill in the team details with your team captain and advisor
