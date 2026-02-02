@@ -20,7 +20,7 @@ The tutorial is located in OpenFOAM's directory `tutorials/multiphase/interFoam/
 ```
 source /projappl/project_2016753/share/OpenFOAM-v2506/etc/bashrc
 
-cp -r /projappl/project_2016753/share/OpenFOAM-v2506/tutorials/incompressible/icoFoam/cavity /scratch/project_2016753/<your-group-folder>
+cp -r /projappl/project_2016753/share/OpenFOAM-v2506/tutorials/multiphase/interFoam/laminar/damBreak/damBreak /scratch/project_2016753/<your-group-folder>
 ```
 
 At any point, if you need to get a clean slate, clean the copied folder with the `Allclean` command in the case directory.
