@@ -27,7 +27,6 @@ mpicc -o cpu_affinity cpu_affinity.c utilities.c -fopenmp -lm -lnuma
 srun --time=00:01:00 -N1 --ntasks-per-node=2 --cpus-per-task=2 --account=project_2016753 --partition=small cpu_affinity
 ```
 
-
 **Note**: It is highly recommended that when you start working on a new HPC system
 you investigate how process and thread binding work there.
 

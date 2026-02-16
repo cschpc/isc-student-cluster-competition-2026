@@ -7,12 +7,8 @@ Slides: https://kannu.csc.fi/s/kHqdtBx7z7nNesK
 
 ## Agenda
 
-|Time|Topic|
-|---|---|
-|13:15|Process affinity and MPI/OpenMP core binding|
-|13:45|Hand-on with DFTB+|
-|14:30|Coffee break|
-|14:45|Hands-on continued|
+- Hands-on work with DFTB+
+- Process/thread affinity
 
 ## Hands-on exercises
 
