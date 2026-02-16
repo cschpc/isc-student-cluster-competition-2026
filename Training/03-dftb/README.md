@@ -1,4 +1,4 @@
-# SCC Training 02 - OpenFOAM
+# SCC Training 03 - DFTB+
 
 Date 16.2. at 13:00 - 17:00  
 At Aalto - Otaniemi, Konemiehentie 1, 1572 (Kide-building, 1st floor)  
