@@ -12,7 +12,7 @@ Training materials and other relevant documents for the University of Helsinki a
 |Week 5 (28.1. 11:50-15:00)|Aalto winter kickstart|[Link](https://scicomp.aalto.fi/training/scip/winter-kickstart-2026/)|
 |2.2.|OpenFOAM and process/thread affinity|[Link](Training/02-openfoam)|
 |16.2.|DFTB+|[Link](Training/03-dftb)|
-|Week 9|ASCOT5||
+|Week 9|ASCOT5|[Link](Training/04-ascot5)|
 |Week 10|HemeLB||
 |Week 12|AI Task + general strategy||
 |23.3. - 8.5.|Virtual competition||
