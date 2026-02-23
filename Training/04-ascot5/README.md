@@ -5,6 +5,7 @@ At Aalto - Otaniemi, Otakaari 1, U121b (Undergraduate Centre, 1st floor)
 
 Find the materials here:
 
+- [Profiling slides](https://kannu.csc.fi/s/M72gxKSxMY7mHKm)
 - [ASCOT5 docs](https://ascot4fusion.github.io/ascot5/index.html)
 - [HDF5 learning resources](https://support.hdfgroup.org/documentation/hdf5/latest/_getting_started.html)
 - extra: [ASCOT5 GPU port technical details](https://indico.euro-fusion.org/event/2845/attachments/5037/8946/Foourestey_ASCOT5.pdf)
