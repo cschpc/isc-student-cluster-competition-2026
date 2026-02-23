@@ -1,0 +1,29 @@
+# nvhpc-hpcx-cuda12 version is important.
+# With other versions there might be mismatch in which hdf5 headres are used
+# vs. which hdf5 shared library is loaded during runtime.
+#
+# Mahti documentation (docs.csc.fi/computing/compiling-mahti/)
+# recommends nvhpc-hpcx-cuda12/25.1 but it did not work.
+#
+# Puhti documentation (docs.csc.fi/computing/compiling-puhti/)
+# recommends nvhpc-hpcx-cuda12/24.11 which worked.
+module purge
+module use /appl/opt/nvhpc/modulefiles
+module load nvhpc-hpcx-cuda12/24.11
+module load gcc/11.2.0  openmpi/4.1.2-cuda # dependenceis of hdf5/1.10.7-mpi
+module load hdf5/1.10.7-mpi
+module load hpcx # At runtime fixes undefined symbol: opal_libevent2022_evthread_use_pthreads
+module load python-data/3.12-25.09
+
+python -m venv ascot-env
+source ascot-env/bin/activate
+
+git clone https://github.com/ascot4fusion/ascot5.git
+cd ascot5
+
+pip install -e .
+pip install matplotlib # Required for ASCOT5 python module.
+
+make ascot5_main -j 8 MPI=1 ACC=1 CC='nvc -lmpi'
+make libascot -j 8 MPI=1 ACC=1 CC='nvc -lmpi'
+
