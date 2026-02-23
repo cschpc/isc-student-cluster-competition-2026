@@ -11,7 +11,7 @@ Training materials and other relevant documents for the University of Helsinki a
 |19.1.|Parallel computing concepts + compiling + machine hall visit|[Link](Training/01-supercomputing-intro)|
 |Week 5 (28.1. 11:50-15:00)|Aalto winter kickstart|[Link](https://scicomp.aalto.fi/training/scip/winter-kickstart-2026/)|
 |2.2.|OpenFOAM and process/thread affinity|[Link](Training/02-openfoam)|
-|16.2. @ Aalto, Kide (Konemiehenti 1), 1572|DFTB+|[Link](Training/03-dftb)|
+|16.2. @ Aalto, Kide (Konemiehentie 1), 1572|DFTB+|[Link](Training/03-dftb)|
 |23.2. @ Aalto, Otakaari 1, U121b|ASCOT5|[Link](Training/04-ascot5)|
 |2.3. @ Aalto, Väre (Otaniementie 14), Q103|HemeLB||
 |16.3. @ Aalto, Kone (Konetekniikka 1), 201|AI Task + general strategy||
