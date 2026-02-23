@@ -8,7 +8,9 @@ Find the materials here:
 - [Profiling slides](https://kannu.csc.fi/s/M72gxKSxMY7mHKm)
 - ASCOT5 slides (ascot5-slides.pdf)
 - [ASCOT5 docs](https://ascot4fusion.github.io/ascot5/index.html)
-- [ASCOT5 python fix](https://github.com/ascot4fusion/ascot5/issues/195)
+- ~[ASCOT5 python fix](https://github.com/ascot4fusion/ascot5/issues/195)~
+  - Edit `pyproject.toml`: `  "numpy",` --> `  "numpy==2.1",`
+  - Run `pip install -e .`
 - extra: [ASCOT5 GPU port technical details](https://indico.euro-fusion.org/event/2845/attachments/5037/8946/Foourestey_ASCOT5.pdf)
 - extra: [ASCOT5 info slides](https://hpcfusion.bsc.es/2023/wp-content/uploads/sites/7/2023/12/Snicker-kurki.pdf)
 - extra: [ASCOT5 GPU port info](https://hpcfusion.bsc.es/2024/wp-content/uploads/sites/8/2024/11/Mathieu-Peybernes_FusionHPC-Workshop-1.pdf)
