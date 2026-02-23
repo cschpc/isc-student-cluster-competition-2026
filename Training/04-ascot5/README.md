@@ -8,10 +8,11 @@ Find the materials here:
 - [Profiling slides](https://kannu.csc.fi/s/M72gxKSxMY7mHKm)
 - ASCOT5 slides (ascot5-slides.pdf)
 - [ASCOT5 docs](https://ascot4fusion.github.io/ascot5/index.html)
-- [HDF5 learning resources](https://support.hdfgroup.org/documentation/hdf5/latest/_getting_started.html)
+- [ASCOT5 python fix](https://github.com/ascot4fusion/ascot5/issues/195)
 - extra: [ASCOT5 GPU port technical details](https://indico.euro-fusion.org/event/2845/attachments/5037/8946/Foourestey_ASCOT5.pdf)
 - extra: [ASCOT5 info slides](https://hpcfusion.bsc.es/2023/wp-content/uploads/sites/7/2023/12/Snicker-kurki.pdf)
 - extra: [ASCOT5 GPU port info](https://hpcfusion.bsc.es/2024/wp-content/uploads/sites/8/2024/11/Mathieu-Peybernes_FusionHPC-Workshop-1.pdf)
+- extra: [HDF5 learning resources](https://support.hdfgroup.org/documentation/hdf5/latest/_getting_started.html)
 
 
 ## Agenda
