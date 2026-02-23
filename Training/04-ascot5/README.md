@@ -15,12 +15,18 @@ Find the materials here:
 
 ## Agenda
 
-- Overview of ASCOT5
-- HDF5
-- Using GPU accelerated ASCOT5 on Mahti
-- Optimization options
-- Exercises
+|Time|Topic|
+|---|---|
+|13:00|DFTB+ discussion|
+|13:15|Profiling|
+|13:30|Libmpritrace demo with DFTB+|
+|13:45|Overview of ASCOT5, HDF5|
+|14:00|Coffee break|
+|14:15 - 17:00|Using GPU accelerated ASCOT5 on Mahti|
+|14:15 - 17:00|Optimization options|
+|14:15 - 17:00|Hands-on|
 
 ## Hands-on exercises
 
-[ASCOT5 tutorials](https://ascot4fusion.github.io/ascot5/tutorials.html)
+- [DFTB+ profiling demo](exercises/profiling_dftb_demo.md)
+- [ASCOT5 tutorials](https://ascot4fusion.github.io/ascot5/tutorials.html)
