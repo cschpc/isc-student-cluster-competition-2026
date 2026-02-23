@@ -12,9 +12,9 @@ Training materials and other relevant documents for the University of Helsinki a
 |Week 5 (28.1. 11:50-15:00)|Aalto winter kickstart|[Link](https://scicomp.aalto.fi/training/scip/winter-kickstart-2026/)|
 |2.2.|OpenFOAM and process/thread affinity|[Link](Training/02-openfoam)|
 |16.2. @ Aalto, Kide (Konemiehentie 1), 1572|DFTB+|[Link](Training/03-dftb)|
-|23.2. @ Aalto, Otakaari 1, U121b|ASCOT5|[Link](Training/04-ascot5)|
+|23.2. @ Aalto, Kandikeskus (Otakaari 1), U121b|ASCOT5|[Link](Training/04-ascot5)|
 |2.3. @ Aalto, Väre (Otaniementie 14), Q103|HemeLB||
-|16.3. @ Aalto, Kone (Konetekniikka 1), 201|AI Task + general strategy||
+|16.3. @ Aalto, K1 (Otakaari 4), 201|AI Task + general strategy||
 |23.3. - 8.5.|Virtual competition||
 
 ## Official ISC Student cluster competition links
