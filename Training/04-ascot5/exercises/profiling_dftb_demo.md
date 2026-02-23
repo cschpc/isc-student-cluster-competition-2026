@@ -56,6 +56,12 @@ After the run has finished, libmpitrace will create at maximum three output file
 
 Analyze the files to identify the most numerous MPI calls during execution, and the ones that take up most time in terms of the wall clock time of the execution.
 
+Remember to unset the environment variable you set earlier, so that it doesn't impede on our later commands in the same shell session:
+
+```
+unset LD_PRELOAD
+```
+
 ## Seff command
 
 Try also Slurm's `seff` command to see some other basic runtime information of your program:
