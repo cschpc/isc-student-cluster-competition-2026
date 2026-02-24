@@ -34,3 +34,15 @@ Find the materials here:
 
 - [DFTB+ profiling demo](exercises/profiling_dftb_demo.md)
 - [ASCOT5 tutorials](https://ascot4fusion.github.io/ascot5/tutorials.html)
+
+## Homework
+
+
+1. Finish 1-3 tutorials of your own choosing.
+  - Increase the number of markers in a tutorial of your chosing until the execution time is around a few minutes with one MPI task using one GPU.
+  - Using this marker count as your baseline. Now study the weak scaling properties of your program in the above marker counts. Does your program scale linearly when you add GPUs proportionately to the markers?
+2. Install and compare a pure CPU version of ASCOT5 to the GPU version
+  - Base your installation scripts on the installation instructions at https://ascot4fusion.github.io/ascot5/installing.html (minimal installation for HPC usage)
+    - Save the script to version control (e.g. to a team-wide GitHub folder)
+  - Compare performance between a full Mahti node on just CPUs, versus when using all GPUs on a Mahti node
+  - Does multithreading improve your runtime on either the CPU or GPU version of ASCOT5?
