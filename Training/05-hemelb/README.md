@@ -7,11 +7,17 @@ Find the materials here: TBA
 
 ## Agenda
 
-TBA
+Vectorization and GPU basics (Leopekka)
+
+HemeLB and Lattice boltzmann lecture (Aaron)
 
 ## Hands-on exercises
 
-TBA
+HemeLB hands on
+  - CPU compilation
+  - GPU compilation
+  - Profiling tools (Nsight compute, Nsight systems)
+  - Debugger on multi gpu
 
 
 ## Homework
