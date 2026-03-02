@@ -185,7 +185,7 @@ if [ "\$RANK" -eq "0" ]; then
 else
     "\$@"
 fi
-'_EOF_'
+_EOF_
 
 
     chmod +x ./ncu_wrapper.sh
