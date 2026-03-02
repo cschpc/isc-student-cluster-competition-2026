@@ -5,8 +5,8 @@ At Aalto, Väre (Otaniementie 14), Q103
 
 ## Agenda
 
-Vectorization and GPU basics (Leopekka)
-Slides: https://kannu.csc.fi/s/2KGmQN2K4sN9Gbs
+Vectorization and GPU basics (Leopekka)  
+- Slides: https://kannu.csc.fi/s/2KGmQN2K4sN9Gbs
 
 HemeLB and Lattice boltzmann lecture (Aaron)
 
