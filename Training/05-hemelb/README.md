@@ -5,6 +5,8 @@ At Aalto, Väre (Otaniementie 14), Q103
 
 ## Agenda
 
+Homework
+Strategy lecture (Julius Kiuru)
 Vectorization and GPU basics (Leopekka)  
 - Slides: https://kannu.csc.fi/s/2KGmQN2K4sN9Gbs
 
