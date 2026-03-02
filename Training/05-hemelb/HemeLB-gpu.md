@@ -167,26 +167,26 @@ case $MODE in
   3)
     echo "Starting Nsight Compute Profile..."
     PROF_DIR="./results/ncu_job${SLURM_JOB_ID}"
-    mkdir -p $PROF_DIR
-
-    # To filter by kernel, uncomment the line below and set the regex.
-    # KERNEL_FILTER="-k regex:^kernel_name$"
-    KERNEL_FILTER="" 
+    mkdir -p "$PROF_DIR"
 
     cat << '_EOF_' > ./ncu_wrapper.sh
 #!/bin/bash
-if [ "$OMPI_COMM_WORLD_RANK" -eq "0" ]; then
-    ncu --set full \
-        ${KERNEL_FILTER} \
-        --target-processes all \
-        --force-overwrite \
-        --launch-count 80 \
-        -o ${PROF_DIR}/kernel_profile \
-        "$@"
+# Detect rank at runtime
+RANK=\${OMPI_COMM_WORLD_RANK:-\${SLURM_PROCID:-0}}
+
+if [ "\$RANK" -eq "0" ]; then
+    ncu --set full \\
+        ${KERNEL_FILTER} \\
+        --target-processes all \\
+        --force-overwrite \\
+        --launch-count 80 \\
+        -o $PROF_DIR/kernel_profile \\
+        "\$@"
 else
-    "$@"
+    "\$@"
 fi
-_EOF_
+'_EOF_'
+
 
     chmod +x ./ncu_wrapper.sh
 
