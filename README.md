@@ -23,13 +23,6 @@ Training materials and other relevant documents for the University of Helsinki a
 - [Student cluster competition, official site](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/)
 - [Competition tasks and materials](https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/3177283633/ISC25+SCC+-+Virtual+Part)
 
-## Miscellaneous documentation
-
-- [Using supercomputers](documentation/supercomputer-usage.md)
-- [Slurm tips](documentation/slurm.md)
-- [Performance analysis](documentation/profiling.md)
-- [Benchmarking tips](documentation/benchmarking.md)
-
 ## Self-learning material
 
 - [Elements of supercomputing](https://edukamu.fi/elements-of-supercomputing)
