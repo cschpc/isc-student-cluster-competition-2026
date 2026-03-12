@@ -14,7 +14,7 @@ Training materials and other relevant documents for the University of Helsinki a
 |16.2. @ Aalto, Kide (Konemiehentie 1), 1572|DFTB+|[Link](Training/03-dftb)|
 |23.2. @ Aalto, Kandikeskus (Otakaari 1), U121b|ASCOT5|[Link](Training/04-ascot5)|
 |2.3. @ Aalto, Väre (Otaniementie 14), Q103|HemeLB|[Link](Training/05-hemelb)|
-|16.3. @ Aalto, K1 (Otakaari 4), 201|AI Task + general strategy||
+|16.3. @ Aalto, K1 (Otakaari 4), 201|AI Task + general strategy|[Link](Training/06-ai-task)|
 |23.3. - 8.5.|Virtual competition||
 
 ## Official ISC Student cluster competition links
