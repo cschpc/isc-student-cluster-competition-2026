@@ -44,7 +44,7 @@ one wants to use readily available MPI installations. For this, we need to
 tell spack to use "external" MPI installation (the above `external find` added
 already some system packages as externals). 
 
-The external find did not find our openmpi installation. Look for it explicitly with:
+The default external find did not find our openmpi installation. Look for it explicitly with:
 
 ```
 spack external find openmpi
@@ -103,23 +103,31 @@ spack info dftbplus
 ```
 
 You see that the default version is 24.1., which is the one requested at the SCC task.  
-You can also see, that MPI parallelization and OpenMP threading are disabled by default. Similarly, Elsi is not installed and used by default.
+You can also see, that MPI parallelization and OpenMP threading are disabled by default. Similarly, Elsi is disabled by default.
 
-You could also try to see what exactly it installs by default by using Spack's spec operation:
+You can see exactly what packages the default installation would include by using Spack's spec operation:
 
 ```
 spack spec dftbplus
 ``` 
 
-We want to enable MPI and OpenMP, and we want Spack to specifically use our existing GCC compilers (11.2.0), OpenMPI (4.1.2) and OpenBLAS (0.3.18). Thus, our Spack installation script should become:
+In our case, however, we want to enable MPI and OpenMP. We also want Spack to specifically use our existing GCC compilers (11.2.0), OpenMPI (4.1.2) and OpenBLAS (0.3.18). 
+
+If you ran the external find commands for all of these above, then Spack should find and use them automatically.  
+Thus, our Spack installation script should become:
 
 ```
-spack spec dftbplus@24.1 +mpi +openmp ^openblas@0.3.18
+spack spec dftbplus@24.1 +mpi +openmp
 ```
 
-**Make sure that the system OpenMPI, OpenBLAS and GCC are marked as externals [e].** We don't want to install these ourselves to save time during the building process. 
+If any of these are not marked as external [e] for you, you can explicitly ask for their versions:
 
-At this step, you could also specify GPU support for DFTB+, through the use of Magma.
+
+```
+spack spec dftbplus@24.1 +mpi +openmp %gcc@11.2.0 ^openmpi@4.1.2 ^openblas@0.3.18
+```
+
+Before you continue, **make sure that the system OpenMPI, OpenBLAS and GCC are marked as externals [e].** We don't want to install these ourselves to save time during the building process. 
 
 Now, if you agree with the spec output, you can finally install seissol together with the dependencies
 for the specified variant:
