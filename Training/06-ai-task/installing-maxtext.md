@@ -33,6 +33,7 @@ create a huge number of files, so we'll use Tykky instead.
 
 To create the container run:
 ```console
+sinteractive --account project_2016753 --time 1:00:00 --cores 8 --tmp 60
 module load tykky
 conda-containerize new --prefix maxtext_env --mamba --post-install maxtext_installation/post_install.sh maxtext_installation/environment.yml
 ```
