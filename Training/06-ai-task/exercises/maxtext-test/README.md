@@ -51,7 +51,7 @@ For this we'll need to look a CSC's documentation on running
 - Use `srun` to launch MaxText.
 - Modify run's name.
 - Modify output paths to a proper place.
-- Pass MaxText path to `src/maxtext/configs/base.yml`
+- Pass configuration file `src/maxtext/configs/base.yml` to MaxText launches.
 
 </details>
 
