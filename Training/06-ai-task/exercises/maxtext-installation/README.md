@@ -37,7 +37,7 @@ sinteractive --account project_2016753 --time 1:00:00 --cores 8 --tmp 60
 module load tykky
 export MAXTEXT_PREFIX=/scratch/project_2016753/$USER/maxtext_env
 mkdir $MAXTEXT_PREFIX
-conda-containerize new --prefix $MAXTEXT_PREFIX --mamba --post-install maxtext_installation/post_install.sh maxtext_installation/environment.yml
+conda-containerize new --prefix $MAXTEXT_PREFIX --mamba --post-install post-install.sh environment.yml
 ```
 
 This does the following:
@@ -47,5 +47,16 @@ This does the following:
    a faster installer for conda packages)
 3. Instructs the builder to run actual MaxText installation in a post-install
    hook that installs the packages using uv.
-4. Instructs the builder to use `maxtext_installation/environment.yml` as a 
+4. Instructs the builder to use `environment.yml` as a 
    specification for the base packages.
+
+To activate the environment, run
+```console
+export MAXTEXT_PREFIX=/scratch/project_2016753/$USER/maxtext_env
+export PATH="$MAXTEXT_PREFIX/bin:$PATH"
+```
+
+## Exercise
+
+1. Install MaxText.
+2. Run `pip list` and check what packages are installed.
