@@ -13,7 +13,8 @@ At Aalto, K1 (Otakaari 4), 201
 
 ## Hands-on exercises
 
-- TBA
+- [Installing MaxText](./installing-maxtext.md)
+
 
 ## Homework
 

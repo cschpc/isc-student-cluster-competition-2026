@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - uv
+  - pip
+  # compilers
+  - compilers
+  - gcc
+  - gxx
+  - gfortran
+  # CUDA packages
+  - cuda-version=12.9
+  - nccl
+  - cuda-cudart
+  - cudnn
+  - cuda-compiler
+  - cuda-nvcc
+  - cuda-libraries-dev
+  - cuda-toolkit
+  - cuda-nvtx
+  - cuda-nvtx-dev
+
