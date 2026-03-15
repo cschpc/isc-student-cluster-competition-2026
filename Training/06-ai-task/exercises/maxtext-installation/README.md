@@ -35,14 +35,14 @@ To create the container run:
 ```console
 sinteractive --account project_2016753 --time 1:00:00 --cores 8 --tmp 60
 module load tykky
-export MAXTEXT_PREFIX=/scratch/project_2016753/$USER/maxtext_env
-mkdir $MAXTEXT_PREFIX
-conda-containerize new --prefix $MAXTEXT_PREFIX --mamba --post-install post-install.sh environment.yml
+export MAXTEXT_ENV=/scratch/project_2016753/$USER/maxtext_env
+mkdir $MAXTEXT_ENV
+conda-containerize new --prefix $MAXTEXT_ENV --mamba --post-install post-install.sh environment.yml
 ```
 
 This does the following:
 
-1. Creates a new container into `$MAXTEXT_PREFIX`
+1. Creates a new container into `$MAXTEXT_ENV`
 2. Instructs the builder to utilize mamba for the build process (mamba is
    a faster installer for conda packages)
 3. Instructs the builder to run actual MaxText installation in a post-install
@@ -52,8 +52,8 @@ This does the following:
 
 To activate the environment, run
 ```console
-export MAXTEXT_PREFIX=/scratch/project_2016753/$USER/maxtext_env
-export PATH="$MAXTEXT_PREFIX/bin:$PATH"
+export MAXTEXT_ENV=/scratch/project_2016753/$USER/maxtext_env
+export PATH="$MAXTEXT_ENV/bin:$PATH"
 ```
 
 ## Exercise
