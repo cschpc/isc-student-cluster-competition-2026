@@ -4,6 +4,8 @@ General Spack documentation can be found at: https://spack.readthedocs.io
 
 In this tutorial, you will be installing Spack and DFTB+ (without Elsi!) on Mahti. Please note that compiler versions, external libraries etc. might differ on different systems.
 
+Spack will install packages in a `spack` folder, and the config files under a `.spack` folder, by default.
+
 ## Installing and configuring Spack
 
 Clone spack:
@@ -159,4 +161,4 @@ which adds the installation directory to `$PATH` for us.
 At the installation step, you could also enable GPU support through the use of Magma (`+gpu`). See `spack info dftbplus`.
 
 Additionally, you should test performance with Elsi, since it's a pre-requisite for the SCC tasks.  
-To get Elsi working on Mahti with Spack, it needs a lot of tuning, see [./dftb_spack_with_elsi.md](./dftb_spack_with_elsi.md) for this.
+To get Elsi working on Mahti with Spack, it needs some tuning, see [./dftb_spack_with_elsi.md](./dftb_spack_with_elsi.md) for this.
