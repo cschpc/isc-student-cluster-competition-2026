@@ -13,7 +13,14 @@ export DECOUPLE_GCLOUD=TRUE
 
 ## Getting example configurations
 
-MaxText's repository contains lots of example configurations. Some of the
+MaxText's runs are configured using
+[OmegaConf](https://omegaconf.readthedocs.io/en/latest/index.html)
+configurations.
+
+You can browse configurations and view their documentation
+[here](https://github.com/AI-Hypercomputer/maxtext/tree/main/src/maxtext/configs).
+
+A lot of these configurations are available in MaxText's repository. Some of the
 configuration parameters have been modified in the main branch, so we'll need
 to checkout an older version of the repository.
 
