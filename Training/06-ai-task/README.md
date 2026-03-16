@@ -15,6 +15,7 @@ At Aalto, K1 (Otakaari 4), 201
 
 - [Installing MaxText](./exercises/maxtext-installation/README.md)
 - [Testing MaxText](./exercises/maxtext-test/README.md)
+- [Profiling MaxText](./exercises/maxtext-profiling/README.md)
 
 ## Homework
 
