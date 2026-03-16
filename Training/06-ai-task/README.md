@@ -7,6 +7,7 @@ At Aalto, K1 (Otakaari 4), 201
 
 - Discussing homework
 - AI Task (Simo/Hossein/Matteo)
+     - Slides: https://kannu.csc.fi/s/xtf4LbrsbQ6fLLX
 - Competition hardware and Spack (Leopekka)
     - Slides: https://kannu.csc.fi/s/xtf4LbrsbQ6fLLX
 - GH200 Hardware deep-dive (Ivan/Self-learning)
