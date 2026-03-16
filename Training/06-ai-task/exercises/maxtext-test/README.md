@@ -1,16 +1,5 @@
 # Testing MaxText
 
-## Decoupling MaxText from Google Cloud
-
-MaxText is heavily designed around Google Cloud, but it can also be run
-without those features.
-
-This is done by [running the code in decoupled mode](https://maxtext.readthedocs.io/en/latest/run_maxtext/decoupled_mode.html):
-
-```sh
-export DECOUPLE_GCLOUD=TRUE
-```
-
 ## Getting example configurations
 
 MaxText's runs are configured using
@@ -83,9 +72,6 @@ MAXTEXT_ENV=/scratch/project_2016753/$USER/maxtext_env
 ## Outputs path
 MAXTEXT_OUTPUTS=$PWD/maxtext_outputs
 
-## Disable Google Cloud integration in maxtext
-export DECOUPLE_GCLOUD=TRUE
-
 
 # Pre-run setup
 
@@ -93,7 +79,7 @@ export DECOUPLE_GCLOUD=TRUE
 export PATH="$MAXTEXT_ENV/bin:$PATH"
 
 ## Create output directory
-mkdir $MAXTEXT_OUTPUTS
+mkdir -p $MAXTEXT_OUTPUTS
 
 
 # Run maxtext
