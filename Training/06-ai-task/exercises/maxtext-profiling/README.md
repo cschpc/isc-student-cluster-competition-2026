@@ -24,6 +24,7 @@ To enable TensorFlow metrics in MaxText, set `enable_tensorboard=true`.
 
 <details>
     <summary>Solution:</summary>
+
 ```sh
 #!/bin/bash
 #SBATCH --time=00:15:00
@@ -63,6 +64,7 @@ srun python3 -u -m maxtext.trainers.pre_train.train src/maxtext/configs/base.yml
   enable_tensorboard=true \
   metrics_file=$MAXTEXT_OUTPUTS/maxtext-profiling.json \
 ```
+
 </details>
 
 2. Visualize metrics using CSC's TensorBoard app.
