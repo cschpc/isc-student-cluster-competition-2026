@@ -11,6 +11,7 @@ At Aalto, K1 (Otakaari 4), 201
 - Competition hardware and Spack (Leopekka)
     - Slides: https://kannu.csc.fi/s/xtf4LbrsbQ6fLLX
 - GH200 Hardware deep-dive (Ivan/Self-learning)
+- [LLM background](./llm-structure.png)
 
 ## Hands-on exercises
 
